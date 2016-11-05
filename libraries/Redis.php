@@ -8,9 +8,9 @@ class Redis
 	        
 	public function config()
 	{
-		Predis\Autoloader::register();
+	Predis\Autoloader::register();
 
-		$client = new Predis\Client([
+	$client = new Predis\Client([
             'scheme' => 'tcp',
             'host'   => '127.0.0.1',
             'port'   => 6379 // redis default port
