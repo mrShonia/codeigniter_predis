@@ -18,7 +18,7 @@ $client = new Predis\Client([
 You should load redis `library` and initialise `config` method in your application like this 
 
 ```php
-$this->load->library->('redis');
+$this->load->library('redis');
 $redis = $this->redis->config();
 
 
